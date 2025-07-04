@@ -11,9 +11,9 @@ int main(){
     scanf("%c",&user_input);
 
     if (user_input=='h' && random==0){
-        printf("It was h well done!");
+        printf("It was h, you won!");
     }else if (user_input=='t' && random==1){
-        printf("It was t well done!");
+        printf("It was t, you won!");
     }else{
         printf("It was not %c, try again!", user_input);
     }
